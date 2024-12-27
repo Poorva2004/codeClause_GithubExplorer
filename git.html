@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="https://github.com" class="github-logo" target="_blank">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo">
+            GitHub Explorer
+        </a>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search Repositories..." onkeyup="searchRepositories()">
+        </div>
+    </header>
+
+    <div class="explore-section">
+        <h2>Explore Trending Repositories</h2>
+        <div class="repo-list" id="repoList">
+            <!-- Trending repositories will be displayed here -->
+        </div>
+    </div>
+
+    <div id="repoDetails" style="display: none;">
+        <!-- Repository details will be shown here -->
+    </div>
+
+    <div id="userProfile" style="display: none;">
+        <!-- User profile will be displayed here -->
+    </div>
+
+    <footer>
+        <p>GitHub Explorer | <a href="https://github.com">GitHub</a></p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

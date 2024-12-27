@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d1117; /* GitHub's dark theme background */
+    color: white;
+}
+
+header {
+    background-color: #161b22;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .github-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+header .github-logo img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+header .search-bar input {
+    padding: 10px;
+    width: 300px;
+    background-color: #21262d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.repo-card {
+    background-color: #161b22;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #444d56;
+    width: 250px;
+    cursor: pointer;
+}
+
+.repo-card h3 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.repo-card p {
+    margin: 10px 0;
+    color: #b0b0b0;
+}
+
+.repo-card a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.repo-card a:hover {
+    text-decoration: underline;
+}
+
+.repo-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.repo-card:hover {
+    background-color: #21262d;
+}
+
+/* User profile card */
+.user-profile {
+    margin: 20px;
+    padding: 15px;
+    background-color: #161b22;
+    border-radius: 8px;
+    border: 1px solid #444d56;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-profile img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.user-profile h2 {
+    margin-top: 10px;
+}
+
+.user-profile a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.user-profile a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #161b22;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+footer a {
+    color: #58a6ff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.explore-section {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.explore-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.explore-card {
+    background-color: #161b22;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.explore-card a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-size: 18px;
+}
